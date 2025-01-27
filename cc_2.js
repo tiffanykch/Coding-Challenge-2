@@ -71,3 +71,25 @@ customer.push({name: "Professor Fitz", email: "pfitz@papa.com", purchaseAmount: 
 
 //Log entire customer array to the console
 console.log("Customers:", customer)
+
+//TASK 5: OBJECT METHODS - ORDER PROCESSING SYSTEM
+
+//Declare object with properties
+let order = {
+    orderId: 168,
+    customerName: "Ngan Hang",
+    amount: 7.5,
+    
+    //Adding method to calculate tax rate
+    calculateTax: function() {
+        const taxRate = 0.06;
+        return order.amount * taxRate}
+    }
+
+//Log details and tax amount to the console
+console.log(order)
+console.log("Tax Amount: $" + order.calculateTax().toFixed(2))
+
+
+
+
