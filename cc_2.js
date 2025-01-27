@@ -57,4 +57,17 @@ employee.position = "Senior Director"
 //Show new property in the console
 console.log("New Records:", employee)
 
+//TASK 4: ARRAY OF OBJECTS - CUSTOMER DATA BASE
 
+//Declare array containing at least three objects
+let customer = [
+    {name: "Big Pauly", email: "bpauly@papa.com", purchaseAmount: 8238},
+    {name: "Akari", email: "a@papa.com", purchaseAmount: 442},
+    {name: "Captain Cori", email: "ccori@papa.com", purchaseAmount: 12}
+]
+
+//Add a new customer object to the array
+customer.push({name: "Professor Fitz", email: "pfitz@papa.com", purchaseAmount: 14759})
+
+//Log entire customer array to the console
+console.log("Customers:", customer)
