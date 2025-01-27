@@ -32,3 +32,29 @@ let average = total/scores.length
 console.log("Updated Scores:", scores)
 console.log("Average Score:", average.toFixed(2))
 
+//TASK 3: WORKING WITH OBJECTS - MANAGING EMPLOYEMEE RECORDS
+
+//Declare an object with properties
+let employee = {
+    name: "Papa Louie",
+    age: 50,
+    department: "Kitchen",
+    isActive: true
+}
+
+//Log array to the console
+console.log("Employee:", employee)
+
+//Updating the "department" property
+employee.department = "Finance"
+
+//Log updated records to the console
+console.log("Updated Records:", employee)
+
+//Adding new property to the object
+employee.position = "Senior Director"
+
+//Show new property in the console
+console.log("New Records:", employee)
+
+
